@@ -16,9 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="M7s-Xu-iOB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="M7s-Xu-iOB">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rT4-pn-nAL">
                                 <rect key="frame" x="30" y="30" width="333" height="758"/>
@@ -27,7 +26,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="333" height="252.66666666666666"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYb-Zr-9rE">
-                                        <rect key="frame" x="138.33333333333334" y="252.66666666666669" width="56.666666666666657" height="252.66666666666669"/>
+                                        <rect key="frame" x="138.33333333333337" y="252.66666666666669" width="56.666666666666629" height="252.66666666666669"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -78,10 +77,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="M7s-Xu-iOB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3lh-TA-bSh"/>
+                            <constraint firstItem="M7s-Xu-iOB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="DWj-15-uML"/>
                             <constraint firstItem="rT4-pn-nAL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="KSn-Ew-kTA"/>
                             <constraint firstAttribute="trailing" secondItem="rT4-pn-nAL" secondAttribute="trailing" constant="30" id="LzZ-87-xFQ"/>
+                            <constraint firstAttribute="bottom" secondItem="M7s-Xu-iOB" secondAttribute="bottom" id="THE-1E-aQR"/>
+                            <constraint firstItem="M7s-Xu-iOB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UWf-KQ-pGu"/>
                             <constraint firstItem="rT4-pn-nAL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="30" id="V6p-Ox-XkP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rT4-pn-nAL" secondAttribute="bottom" constant="30" id="XRg-A0-Bag"/>
+                            <constraint firstItem="M7s-Xu-iOB" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="ah8-gG-wim"/>
+                            <constraint firstItem="M7s-Xu-iOB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oBJ-Pe-ssC"/>
                         </constraints>
                     </view>
                     <connections>
